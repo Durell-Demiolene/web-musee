@@ -1,0 +1,203 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.mainMenu {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  padding: 50px;
+  box-shadow: 0 0 10px gray;
+
+  transform: translateX(100%);
+  transition: transform .5s
+}
+.open {
+    transform: none;
+  }
+footer {
+  width:900px; 
+  float:left; 
+  background: black; 
+  height: 50px;
+  color: #ffffff;
+}
+body{
+    background: url('images/fond.png');
+    font-family: Arial, serif
+    margin: 0 auto;
+    color: white;
+}
+#logo
+{
+    width: 1000px;
+    margin: auto;
+    margin : 0;
+}
+img{
+max-width
+}
+.container {
+  width:200px; 
+  height: 150px;
+}
+header {
+  width:900px; 
+  float:left; 
+  background: grey; 
+  height: 50px;
+ .btn_primary{
+background: none;
+  background-color: white;
+  color: white;
+ }
+
+.btn{
+  background: none;
+  Background-color: grey;
+  padding: 10px 20px;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  }
+.btn_secondary{
+background: none;
+  background-color: grey;
+  color: white;
+}
+.menu {
+  float: right;
+  padding: 15px
+}
+footer div {
+  padding: 15px;
+}
+header{
+  border: 1px solid;
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%
+  clear  both;
+  float: left;
+}
+  <style>
+div{
+  border: 1px solid;
+  width: px auto;
+}
+  margin-botton;
+  
+p{
+  background-color:purple;
+  left
+}
+.{
+  box-sizing: border-box;
+}
+log{
+  max-width: 100%;
+  height:auto;
+  coject-fit: cover;
+}
+  img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+ object-fit: cover;
+ display-block;
+
+.second{
+  display: flex;
+}
+.second-text{
+   padding: 20px;
+}
+    
+background-position: right 10px top 50%;
+background-repeat: no-repeat;
+}
+
+form div > textarea {
+height: 195px;
+padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder, form div > textarea::placeholder {
+color: white;
+}
+
+form div > select:invalid {
+color: white;
+}
+
+form div > select option {
+background: white;
+color: #303030;
+}
+
+form div {
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 83px;
+margin-top: 25px;
+}
+
+form div > label {
+margin-bottom: 7px;
+font-weight: 600;
+}
+
+form div > input, form div > select, form div > textarea {
+background: #FFD9D9;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+font-family: Montserrat, "sans-serif";
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+form div > input, form div > select {
+height: 50px;
+padding-left: 10px;
+}
+
+form div:last-child {
+align-items:center;
+margin-top: 20px;
+}
+
+body {
+background: #white;
+font-family: Montserrat, "sans-serif";
+display: flex;
+justify-content: center;
+color: #303030;
+}
+
+form button {
+width: 450px;
+max-width: 500px;
+height: 60px;
+font-weight: 700;
+font-size: 28px;
+background: white;
+border: rgba(30, 30, 30, 0.5) solid 1px;
+border-radius: 5px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+color: #303030;
+}  
+
+
+
+
+
