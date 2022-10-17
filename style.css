@@ -21,6 +21,11 @@ h1 {
   transform: none;
 }
 
+p {
+  color: black;
+  background-color: grey;
+}
+
 footer {
   width:900px; 
   background: #919191; 
@@ -107,6 +112,8 @@ log {
   
 .second {
   display: flex;
+  text-align: justify;
+  background-color: grey;
 }
 
 .second-text {
