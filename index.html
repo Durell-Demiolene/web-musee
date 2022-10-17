@@ -13,28 +13,21 @@
   <script src="script.js"></script>
   <div class="container">
 
-    <footer>   
-      <div>Site Web</div>
-    </footer>
-
-
     <div id="logo">
       
       <header>
         <img src="https://img.icons8.com/ios- 
    glyphs/344/museum.png" alt="Logo" title="logo" 
+          
       </header>
 
       
-    </div id="logo" />
+    </div id="logo"/>
 
     <header>
       
-      <button class="btn_primary">Menu</button>
-      <button class="btn_secondary">Contact</button>
-
-      <button class="" id="triggerMenu">Liste d'événement
-      </button>
+      
+      
 
       <nav class="mainMenu">
         
@@ -49,13 +42,12 @@
       
     </header>
 
-
-
     <div class="">
       
-      <p> Musée historique </p>
+      <h1> Musée historique </h1>
 
       <style>
+        
         div {
           border: 1px solid;
           widht: px auto;
@@ -77,6 +69,7 @@
         .fixed {
           position: fixed;
         }
+        
       </style>
 
       <div class="first">
@@ -118,7 +111,7 @@
             <div>
               
               <label for="nom">Votre nom</label>
-              <input type="text" id="nom" name="nom" placeholder="Noemie" required>
+              <input type="text" id="nom" name="nom" placeholder="Mon nom" required>
               
             </div>
 
@@ -126,43 +119,44 @@
 
             <form action="/page-traitement-donnees" method="post">
 
-              <div>
+      <div>
                 
-                <label for="email">Votre e-mail</label>
-                <input type="email" id="email" name="email" placeholder="monadresse@gmail.com" required>
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" placeholder="monadresse@gmail.com" required>
                 
-              </div>
-
-
-              <div>
+      </div>
+              
+      <div>
                 
-                <label for="sujet">Quel est le sujet de votre message ?</label>
-
-                <select name="sujet" id="sujet" required>
-                  <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
-                  <option value="probleme-compte">Problème avec mon compte</option>
-                  <option value="question-produit">Question à propos d’un produit</option>
-                  <option value="suivi-commande">Suivi de ma commande</option>
-                  <option value="autre">Autre...</option>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+        <option value="probleme-compte">Problème avec mon compte</option>
+        <option value="question-services">Question à propos d’un service</option>
+        <option value="boutique souvenir">Suivi de ma commande</option>
+        <option value="autre">Autre...</option>
                   
                 </select>
                 
-              </div>
-
-
-              <div>
-                
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
-                  required></textarea>
-                
-              </div>
-
-
-              <div>
-                
-                <button type="submit">Envoyer mon message</button>
-                
-              </div>
-            </form>
         </div>
+
+
+      <div>
+                
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
+        required></textarea>
+                
+      </div>
+
+
+            </form>
+          </div>
+
+    <footer>   
+      
+      <button class="btn_primary">Menu</button>
+      <button class="btn_secondary">Contact</button>
+      <button class="btn_tertiary"id="triggerMenu">Liste d'événement</button>
+  
+    </footer>
