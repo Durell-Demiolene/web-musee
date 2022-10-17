@@ -5,35 +5,25 @@ html, body {
 }
 
 h1 {
-  color: black;
+  color: #7b219f;
   font-family: Impact;
   font-size: 21px;  
   text-align: center;
 }
 
-
 .mainMenu {
-  height: 100vh;
-  background-color: black;
-  color: white;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 90%;
-  padding: 50px;
-  box-shadow: 0 0 10px gray;
-  transform: translateX(100%);
-  transition: transform .5s
+  float: center;
+  margin: 0px 15px;
+  text-align: left;
 }
 
 .open {
-    transform: none;
+  transform: none;
 }
 
 footer {
   width:900px; 
-  background: #f1c9fe; 
+  background: #919191; 
   height: 50px;
   color: #000000;  
   border: 1px solid;
@@ -42,24 +32,19 @@ footer {
 
 body {
   background: url('images/fond.png');
-  font-family: Arial, serif
+  font-family: Arial, serif;
   margin: 0 auto;
   color: black;
 }
 
 #logo {
-    width: 1000px;
-    margin: auto;
-    margin : 0;
+  width: 1000px;
+  margin: auto;
+  margin : 0;
 }
 
 img {
   max-width
-}
-
-.container {
-  width:200px; 
-  height: 150px;
 }
 
 .btn_primary {
@@ -70,48 +55,32 @@ img {
 
 .btn {
   background: none;
-  background-color: white;
+  background-color: black;
   padding: 10px 20px;
   box-shadow: none;
   border: none;
   text-transform: uppercase;
   font-size: 12px;
-  color: white;
+  color: black;
   }
   
 .btn_secondary {
+  background: none;
+  background-color: #919191;
+  color: black;
+}
+
+.btn_tertiary {
   background: none;
   background-color: white;
   color: black;
 }
 
-.btn_tertiary {
-background: none;
-  background-color: white;
-  color: black;
-
-}
-
-.menu {
-  float: right;
-  padding: 15px
-}
-  
 footer div {
   padding: 15px;
 }
   
-header{
-  border: 1px solid;
-  margin: 20px 0;
-  padding: 20px;
-  width: 100%
-  clear  both;
-  float: left;
-}
-  
-div
-{
+div {
   border: 1px solid;
   width: px auto;
 }
@@ -121,12 +90,8 @@ header {
   float:left; 
   background: grey; 
   height: 50px;
-
-
-.{
-  box-sizing: border-box;
 }
-  
+
 log {
   max-width: 100%;
   height:auto;
@@ -134,22 +99,27 @@ log {
 }
   
 .img {
- display: block;
- max-width: 100%;
- height: auto;
- object-fit: cover;
- display-block;
+  display: block;
+  object-fit: cover;
+  width: 10%;
+  height: 10%;
 }
   
 .second {
   display: flex;
 }
+
 .second-text {
   padding: 20px;
 }
     
-background-position: right 10px top 50%;
-background-repeat: no-repeat;
+background-position {
+  right: 10px;
+  top: 50%;
+}
+
+background-repeat {
+  no-repeat;
 }
 
 form div > textarea {
@@ -204,7 +174,6 @@ margin-top: 20px;
 }
 
 body {
-background: #white;
 font-family: Montserrat, "sans-serif";
 display: flex;
 justify-content: center;
